@@ -1,0 +1,89 @@
+*{
+    padding: 0%;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    background-color: rgb(192, 192, 230);
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container ul{
+    padding: 1px 80px;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    list-style: none;
+}
+header .container ul li{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 40px;
+}
+a{
+    align-items: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin: 25px;
+}
+section{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+ .dna{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+}
+.dna h1{
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
+.dna form{
+    width: 60%;
+    background-color: bisque;
+    padding: 30px;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+}
+
+.bag img{
+    width: 100%;
+    padding: 20px;
+    opacity: 0.7;
+    padding-bottom: 20px;
+}
+input{
+    width: 100%;
+    margin-bottom: 5px;
+    outline: none;
+    background-color: rgb(207, 231, 252);
+    padding: 10px 13px;
+    border-radius: 7px;
+}
+.submit{
+    margin-top: 10px;
+    width: 50%;
+    margin-bottom: 5px;
+    outline: none;
+    background-color: rgb(224, 39, 33);
+    padding: 10px 13px;
+    border-radius: 7px;
+    border: none;
+}
