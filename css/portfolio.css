@@ -1,0 +1,221 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    background-color: rgb(192, 192, 230);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+header .container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 4%;
+}
+header .container ul{
+    width: 100%;
+    padding: 7px 150px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+header .container ul li{
+    justify-content: center;
+   
+    text-align: center;
+    align-items: center;
+}
+header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+a{
+    color: white;
+    align-items: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin: 25px;
+}
+@media screen and (min-width: 900px){
+    header .container .mobile{
+        display: none;
+    }
+    header{
+        background-color: rgb(140, 169, 194);
+        justify-content: center;
+        margin-right: none;
+    }
+}
+@media screen and (max-width: 900px){
+    header .container .mobile{
+        display: block;
+        justify-content: flex-end;
+        color: black;
+        margin-right: 120px;
+    }
+    header{
+        background-color: rgb(140, 169, 196);
+        color: white;
+        padding:5px;
+    }
+    header .container ul{
+        display: none;
+    }
+    header .container{
+        text-align: center;
+    }
+    .container .logo img{
+        margin-right: 180px;
+        width: 35px;
+        height: 35px;
+    }
+    .red{
+        position: relative;
+    }
+    section .sit{
+        position: absolute;
+        top: 70%;
+    }
+    section .dax h1{
+        font-size: 1.2rem;
+    }
+    section .rio h3{
+        font-size: 1.2rem;
+    }
+    section .rio p{
+        font-size: 0.9rem;
+    }
+    section .sit h2{
+        font-size: 1.2rem;
+    }
+    section .sit p{
+        font-size: 0.9rem;
+    }
+    #hero{
+        position: relative;
+    }
+    #hero .cats {
+        position: absolute;
+        top: 20%;
+    }
+    #hero .cats h1{
+        font-size: 1.2rem;
+    }
+    #hero .cats p{
+        font-size: 0.9rem;
+    }
+
+}
+.dax{
+    align-items: center;
+    text-align: center;
+    font-size: 2.1rem;
+    padding: 10px;
+    padding-top: 16px;
+}
+.red{
+    position: relative;
+    padding-bottom: 20px;
+    padding: 15px;
+}
+.rio{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+
+}
+.gas{
+    background-color: black;
+}
+.gas img{
+    opacity: 0.8;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.rio h3{
+    width: 100%;
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+.rio p{
+    font-size: 2rem;
+    align-items: center;
+    color: aliceblue;
+}
+.sit{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    z-index: 1000;
+ 
+
+}
+.sit h2{
+    width: 100%;
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+    align-items: center;
+
+}
+.sit p{
+    font-size: 2rem;
+    align-items: center;
+    color: aliceblue;
+    padding: 20px;
+}
+.get{
+    background-color: black;
+}
+.get img{
+    padding-bottom: 20px;
+    opacity: 0.8;
+}
+#hero{
+ 
+   padding: 15px;
+
+}
+.ham{
+    background-color: black;
+    padding: 15px;
+}
+.ham img{
+    opacity: 0.8;
+    background-color: black;
+  
+}
+.cats{
+    position: absolute;
+    top: 480%;
+    left: 10%;
+    padding: 15px;
+}
+.cats h1{
+    width: 100%;
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+    align-items: center;
+
+}
+.cats p{
+    font-size: 2rem;
+    align-items: center;
+    color: aliceblue;
+    padding: 20px;
+}

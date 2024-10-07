@@ -4,42 +4,194 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-header{
+img{
     width: 100%;
-    height: 60%;
-    background-color: rgb(192, 192, 230);
-    border-radius: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
 }
-header .container{
+section header{
+    width: 100%;
+    /* // height: 60%; */
+    background-color: rgb(192, 192, 230);
+    /* // border-radius: 10px; */
+    /* // margin-bottom: 10px; */
+    /* // margin-top: 10px; */
+    display: flex;
+    justify-content: center;
+    padding: 5px 100px;
+}
+
+section header .container{
+    width: 100%;
+    /* // position: relative; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* // left: 10%; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
 }
 header .container ul{
-    padding: 1px 70px;
-
-    align-items: center;
+    /* // padding: 1px 70px; */
+    /* // align-items: center; */
     width: 100%;
     display: flex;
+    justify-content: center;
+    /* justify-content: center; */
     list-style: none;
 }
 header .container ul li{
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+    margin: 20px;
+    /* justify-content: center;
+    text-align: center; */
+    /* align-items: center; */
 }
 header img{
     width: 50px;
     height: 50px;
     border-radius: 100%;
+    /* margin-right: 180px; */
 }
 a{
-    align-items: center;
+    /* align-items: center; */
     font-size: 1.2rem;
     text-decoration: none;
-    margin: 25px;
+    /* margin: 25px; */
+}
+@media screen and (min-width: 900px){
+    header .container .mobile{
+        display: none;
+    }
+    section header{
+        background-color: rgb(140, 161, 167);
+        /* justify-content: center; */
+      /* margin-right: none; */
+    }
+   
+    
+}
+@media screen and (max-width: 900px){
+    header .container .mobile{
+        display: block;
+        color: rgb(0, 0, 0);
+      margin-left: 150px;
+        justify-content: end;
+    }
+    header .container ul{
+        display: none;
+        justify-content: left;
+    }
+    header{
+        position: relative;
+        width:100%;
+        background-color: rgb(140, 176, 187);
+        color: white;
+        padding: 5px 20px;
+       
+    }
+    header .container ul{
+        /* display: none;
+        margin-right: none;
+        padding-right: none; */
+        
+    }
+    .container .logo img{
+        position: absolute;
+        top: 4%;
+       left: 10%;
+       margin-right: 50px;
+        width: 35px;
+        height: 35px;
+    }
+    a{
+        /* margin: 10px; */
+        font-size: 0.9rem;
+    }
+    #hero .content .vid{
+        width: 100%;
+       
+    }
+   
+    #hero .content .dex{
+        position: relative;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #hero .content .dex h1{
+        margin-top: 5px;
+        font-size: 2.4rem;
+
+    }
+    #hero .content .dex button{
+        top: 10%;
+        margin-top: 0px;
+        color: aliceblue;
+      margin-bottom: 100px;
+    }
+    #hero .content .dex p{
+        padding-top: 5px;
+        font-size: 0.7rem;
+    }
+    .pluto h1{
+        font-size: 1.7rem;
+    }
+    #run .cex{
+      gap: none;
+        background-color: rgb(153, 151, 151);
+    }
+    #run .nex{
+        gap: none;
+        background-color: rgb(153, 151, 151);
+    }
+    #run .tex{
+        display: none;
+        gap: none;
+        background-color: rgb(153, 151, 151);
+    }
+    .sad h1{
+        padding-top: 13px;
+        font-size: 1.7rem;
+    }
+    .hen h2{
+        font-size: 1rem;
+    }
+    .hen p{
+       font-size: 0.6rem; 
+    }
+    .hen button {
+        margin-left: 100px;
+        align-items: center;
+        justify-content: center;
+    }
+    .sat .him img{
+        display: none;
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+    }
+    .sat form{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 500px;
+        height: 500px;
+    }
+     section .sat{
+        gap: 10px;
+        padding-right: 10px;
+    }
+     form .net{
+        width: 40%;
+        margin-left: 100px;
+        padding: 10px 13px;
+        border-radius: 7px;
+        border: none;
+        background-color: rgb(255, 103, 47);
+        color: aliceblue;
+    }
+    
+}
+
+.sat form textarea{
+        width: 85%;
 }
 #hero {
     position: relative;
@@ -50,17 +202,18 @@ a{
 .vid{
     opacity: 0.8;
 }
+
  #hero .content .dex {
     position: absolute;
     top: 24%;
-    left: 10%;
+    left: 7%;
     text-align: center;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding-bottom:30px;
 }
-#hero .content .dex h2{
+ .dex h1{
    margin-bottom: 30px;
     font-size: 4.5rem;
     color: rgb(173, 82, 82);
@@ -69,8 +222,9 @@ a{
     text-align: center;
     align-items: center;
     color: aliceblue;
-    font-size: 1.2rem;
+    font-size: 2rem;
     margin-bottom: 20px;
+    padding: 10px;
 
 }
 .dex button{
@@ -83,19 +237,18 @@ a{
 .pluto{
     text-align: center;
     align-items: center;
-    font-size: 1.9rem;
+    font-size: 2.5rem;
     padding-bottom: 13px;
 }
 #run{
-    display: flex;
-    padding: 20px;
-    gap: 40px;
+    padding: 7px;
+    gap: 13px;
     background-color: rgb(34, 32, 32);
 }
 #run h1{
     align-items: center;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-bottom:20px ;
 }
@@ -104,6 +257,18 @@ a{
     border-radius: 20px;
     padding-bottom: 15px;
 }
+.nex{
+    margin-top: 20px;
+    background-color: rgb(62, 99, 131);
+    border-radius: 20px;
+    padding-bottom: 15px; 
+}
+.tex{
+    background-color: rgb(62, 99, 131);
+    border-radius: 20px;
+    padding-bottom: 15px;
+}
+
 .hen {
     background-color: rgb(129, 175, 175);
     padding: 15px;
@@ -114,15 +279,13 @@ a{
     padding-bottom: 10px;
     padding: 10px;
 }
-.hen button{
+.hen .rent  {
     margin-top: 13px;
-
     padding: 10px 23px;
-    border-radius: 17px;
+    border-radius: 10px;
     border: none;
     color: aliceblue;
-    background-color: rgba(255, 0, 0, 0.692);
-
+    background-color: rgba(255, 0, 0, 0.692)
 }
 .dax{
     align-items: center;
@@ -143,7 +306,13 @@ a{
     z-index: 1000;
     align-items: center;
     justify-content: center;
+
 }
+
+.gas{
+    background-color: black;
+}
+
 .gas img{
     opacity: 0.8;
     padding: 10px;
@@ -151,12 +320,12 @@ a{
 }
 .rio h3{
     width: 100%;
-    font-size: 2.5rem;
+    font-size: 4rem;
     color: rgb(255, 255, 255);
     align-items: center;
 }
 .rio p{
-    font-size: 1.3rem;
+    font-size: 2rem;
     align-items: center;
     color: aliceblue;
 }
@@ -165,20 +334,24 @@ a{
     top: 80%;
     left: 10%;
     z-index: 1000;
+ 
 
 }
 .sit h2{
     width: 100%;
-    font-size: 2.5rem;
+    font-size: 4rem;
     color: rgb(255, 255, 255);
     align-items: center;
 
 }
 .sit p{
-    font-size: 1.3rem;
+    font-size: 2rem;
     align-items: center;
     color: aliceblue;
     padding: 20px;
+}
+.get{
+    background-color: black;
 }
 .get img{
     padding-bottom: 20px;
@@ -231,13 +404,13 @@ input{
     border-radius: 7px;
 }
 .sat h3{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     padding-bottom: 10px;
     margin-left: 20px;
 }
  .net{
     width: 40%;
-    margin-left: 120px;
+    margin-left: 200px;
     padding: 10px 13px;
     border-radius: 7px;
     border: none;

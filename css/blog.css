@@ -1,0 +1,174 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    background-color: rgb(192, 192, 230);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+header .container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 4%;
+}
+header .container ul{
+    width: 100%;
+    padding: 7px 150px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+header .container ul li{
+    justify-content: center;
+   
+    text-align: center;
+    align-items: center;
+}
+header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+a{
+    
+    align-items: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin: 25px;
+}
+@media screen and (min-width: 900px){
+    header .container .mobile{
+        display: none;
+    }
+    header{
+        background-color: rgb(140, 164, 185);
+        justify-content: center;
+        margin-right: none;
+    }
+    button{
+        display: none;
+    }
+}
+@media screen and (max-width: 900px){
+     header .container .mobile{
+        display: block;
+        color: rgb(0, 0, 0);
+    }
+    header{
+        background-color: rgb(140, 169, 196);
+    }
+    header .container ul{
+        display: none;
+        margin-right:none ;
+        padding-right: none;
+    }
+    .container .logo img{
+        margin-right: 190px;
+        width: 35px;
+        height: 35px;
+    }
+    #hero{
+        position: relative;
+    }
+    #hero .van .goat h1{
+        font-size: 1.2rem;
+    }
+    #hero .van .goat p{
+        font-size: 0.9rem;
+    }
+    #hero .van .get h1{
+        font-size: 1.2rem;
+    }
+    #hero .van .get p{
+        font-size: 0.9rem;
+    }
+    #hero .van .gat h1{
+        font-size: 1.2rem;
+    }
+    #hero .van .gat p{
+        font-size: 0.9rem;
+    }
+    button{
+        display: block;
+    }
+}
+#hero {
+    position: relative;
+    gap: 20px;
+}
+.goat{
+    width: 100%;
+    position: absolute;
+    bottom: 67%;
+    background-color: black;
+}
+.goat p{
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 13px;
+}
+.goat h1{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    padding-top: 10px;
+}
+.get{
+    width: 100%;
+    position: absolute;
+    bottom: 34%;
+    background-color: black;
+}
+.get p{
+   font-size: 1.2rem;
+   text-align: center;
+   color: rgb(255, 255, 255);
+   padding: 13px;
+}
+.get h1{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    padding-top: 10px;
+}
+.gat{
+    width: 100%;
+    position: absolute;
+    bottom: 0.1%;
+    background-color: black;
+}
+.gat p{
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 13px;
+}
+.gat h1{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    padding-top: 10px;
+}
+button{
+    text-align: center;
+    margin-top: 13px;
+    padding: 10px 23px;
+    border-radius: 6px;
+    border: none;
+    color: aliceblue;
+    background-color: rgba(255, 0, 0, 0.692);
+    margin-left: 113px; 
+    margin-bottom: 10px;
+}

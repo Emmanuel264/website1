@@ -8,7 +8,6 @@ header{
     width: 100%;
     background-color: rgb(192, 192, 230);
     margin-bottom: 10px;
-    border-radius: 10px;
 }
 header .container{
     display: flex;
@@ -39,6 +38,90 @@ a{
     text-decoration: none;
     margin: 25px;
 }
+@media screen and (min-width: 900px){
+    header .container .mobile{
+        display: none;
+    }
+    header{
+        background-color: rgb(140, 167, 190);
+        justify-content: center;
+        margin-right: none;
+    }
+    
+}
+@media screen and (max-width: 900px){
+    header .container .mobile{
+        display: block;
+        color: black;
+    }
+    header{
+        width: 100%;
+        background-color: rgb(140, 169, 196);
+        color: white;
+    }
+    header .container ul{
+        display: none;
+        margin-right: none;
+        padding-right: none;
+    }
+    .container .logo img{
+        margin-top: 5px;
+        width: 35px;
+        height: 35px;
+    }
+    #hero{
+        position: relative;
+    }
+    .dna{
+        width: 100%;
+        position: absolute;
+        right: 123%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 520px;
+        height: 520px;
+    }
+   
+    #hero .dna h1{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    #hero .bag{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+    }
+     #hero form{
+        position: absolute;
+        right: 80%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 510px;
+        height: 510px;
+    }
+    form .submit{
+        width: 40%;
+        margin-left: 63px;
+        padding: 10px 13px;
+        border-radius: 7px;
+        border: none;
+        background-color: rgb(255, 103, 47);
+        color: aliceblue;
+    }
+    input{
+        width: 100%;
+        margin-bottom: 5px;
+        outline: none;
+        background-color: rgb(207, 231, 252);
+        padding: 10px 13px;
+        border-radius: 7px;}
+
+        marquee{
+            width: 100%;
+            border-radius: 7px;
+        }
+
+}
 section{
     width: 100%;
     align-items: center;
@@ -48,7 +131,9 @@ section{
     position: relative;
     justify-content: center;
     align-items: center;
-    margin-left: 400px;
+    margin-left: 438px;
+
+    padding: 20px;
 }
 .dna h1{
     font-size: 2.5rem;
@@ -86,4 +171,6 @@ input{
     padding: 10px 13px;
     border-radius: 7px;
     border: none;
+    margin-left: 150px;
 }
+

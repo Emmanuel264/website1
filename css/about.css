@@ -1,0 +1,259 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    background-color: rgb(174, 174, 206);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+header .container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 4%;
+}
+header .container ul{
+    width: 100%;
+    padding: 7px 150px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+header .container ul li{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+   
+}
+a{
+    
+    align-items: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin: 25px;
+}
+@media screen and (min-width: 900px){
+    header .container .mobile{
+        display: none;
+        margin-right: 20px;
+    }
+    header{
+        background-color: rgb(140, 167, 190);
+        justify-content: center;
+        margin-right: none;
+    }
+    
+   
+}
+@media screen and (max-width: 900px){
+    header .container .mobile{
+        display: block;
+        justify-content: flex-end;
+        color: black;
+        margin-right: 120px;
+    }
+    header{
+        width: 96%;
+        background-color: rgb(140, 169, 196);
+        color: white;
+        padding: 5px;
+    }
+    header .container ul{
+        display: none;
+        margin-right: none;
+        padding-right: none;
+    }
+    .container .logo img{
+        margin-right: 200px;
+        width: 35px;
+        height: 35px;
+    }
+    a{
+        margin: 10px;
+        font-size: 0.9rem;
+    }
+    #hero{
+        position: relative;
+    }
+    .content{
+        position: absolute;
+        bottom: 20%;
+        left: 1%;
+        text-align: center;
+       padding-top: 20px;}
+    #hero .content h1{
+        font-size: 1.2rem;
+
+    }
+    #hero .content p{
+       font-size: 0.9rem; 
+    }
+    .men{
+        position: absolute;
+        bottom: 3%;
+        left: 1%;
+        text-align: center;
+        padding-top: 20px;}
+
+    #hero .men h1{
+        font-size: 1.2rem;
+    }
+    #hero .men p{
+        font-size: 0.9rem;
+    }
+    .ten{
+        padding-top: 20px;
+        position: absolute;
+        bottom: 50%;
+        left: 0%;
+        text-align: center;
+        padding: 2px 10px;
+       
+    }
+    #hero .ten h1{
+        font-size: 1.2rem;
+    }
+    #hero .ten p{
+        font-size: 0.9rem;
+    }
+    button{
+        display: none;
+       margin-left: 10px;
+    }
+    footer{
+        font-size: 1.4rem;
+    }
+    
+}
+#hero{
+    position: relative;
+    padding-bottom: 30px;
+}
+.xammp{
+    background-color: black;
+}
+.xammp img {
+    opacity: 0.63;
+ 
+}
+.content{
+    position: absolute;
+    top: 20%;
+    right: 4%;
+    text-align: center;
+   padding-top: 20px;
+
+}
+.content h1{
+    font-size: 4rem;
+    color: rgb(255, 246, 246);
+    padding: 10px;
+
+}
+.content p{
+    font-size: 2rem;
+    color: rgb(255, 251, 251);
+    font-weight: 900;
+    padding: 10px;
+}
+button{
+    margin-top: 9px;
+    padding: 6px 16px;
+    border-radius: 9px;
+    border: none;
+    color: aliceblue;
+    background-color: rgba(255, 0, 0, 0.692);
+
+}
+.bag{
+    background-color: black;
+   
+}
+
+
+.bag img{
+    position: relative;
+    opacity: 0.63;
+   
+
+}
+.men{
+    position: absolute;
+    top: 20%;
+    right: 4%;
+    text-align: center;
+    padding-top: 20px;
+}
+.men h1{
+    font-size: 4rem;
+    color: white;
+    padding: 10px;
+
+}
+.men p{
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+    padding: 10px;
+}
+
+.web3{
+    background-color: black;
+}
+.web3 img{
+    opacity: 0.63;
+}
+.ten{
+    padding-top: 20px;
+    position: absolute;
+    bottom: 50%;
+    right: 4%;
+    text-align: center;
+    padding: 2px 10px;
+   
+}
+.ten h1{
+    font-size: 4rem;
+    color: white;
+ 
+
+}
+.ten p{
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+    padding: 10px;
+}
+button{
+    top: 20%;
+}
+footer{
+    width: 85%;
+        font-size: 0.9rem;
+        margin-top: 20px;
+        text-align: center;
+        align-items: center;
+        color: aliceblue;
+        background-color: rgb(5, 33, 58);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
+
+}
+
+
+

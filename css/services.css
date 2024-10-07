@@ -1,0 +1,263 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 60%;
+    background-color: rgb(192, 192, 230);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+header .container{
+    position: relative;
+    display: flex;
+    left: 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container ul{
+    padding: 1px 70px;
+
+    align-items: center;
+    width: 100%;
+    display: flex;
+    list-style: none;
+}
+header .container ul li{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 180px;
+}
+a{
+    align-items: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin: 25px;}
+    @media screen and (min-width: 900px){
+        header .container .mobile{
+            display: none;
+        }
+        header{
+            background-color: rgb(140, 167, 190);
+            justify-content: center;
+            margin-right: none;
+        }
+       
+    }
+    @media screen and (max-width: 900px){
+        header .container .mobile{
+            display: block;
+            justify-content: flex-end;
+            color: black;
+            margin-right: 100px;
+        }
+        header{
+            width: 96%;
+            background-color: rgb(140, 169, 196);
+            color: white;
+        }
+        header .container ul{
+            display: none;
+            margin-right: none;
+            padding-right: none;
+        }
+        .container .logo img{
+            margin-right: 180px;
+            width: 35px;
+            height: 35px;
+        }
+        .ben h1{
+            font-size: 1.2rem;
+        }
+        .tax .max h1{
+            font-size: 1.2rem;
+        }
+        .tax .max p{
+            font-size: 0.9rem;
+        }
+        .tax .cex h1{
+            font-size: 1.2rem;
+        }
+        .tax .cex p{
+            font-size: 0.9rem;
+        }
+        .tax .dex h1{
+            font-size: 1.2rem;
+        }
+        .tax .dex p{
+            font-size: 0.9rem;
+        }
+        .sad h1{
+            padding-top: 13px;
+            font-size: 1.7rem;
+        }
+        .sat .him img{
+            display: none;
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+        }
+        .sat form{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 500px;
+            height: 500px;
+        }
+         section .sat{
+            gap: 10px;
+            padding-right: 10px;
+        }
+        .sat form textarea{
+            width: 85%;
+          }
+         form .net{
+            width: 40%;
+            margin-left: 80px;
+            padding: 10px 13px;
+            border-radius: 7px;
+            border: none;
+            background-color: rgb(255, 103, 47);
+            color: aliceblue;
+        }
+        
+
+    }
+.ben{
+    text-align: center;
+    padding: 10px;
+    font-size: 3rem;
+}
+.tax{
+    position: relative;
+}
+.wat{
+    background-color: black;
+}
+.wat img{
+    width: 100%;
+    opacity: 0.8;
+}
+.max{
+    position: absolute;
+    top: 30%;
+    left: 2%;
+}
+.max h1{
+    font-size: 3.8rem;
+    padding: 10px;
+    color: white;
+}
+.max p{
+    font-size: 1.9rem;
+    color: white;
+    padding: 10px;
+}
+.cex{
+    position: absolute;
+    top:40% ;
+    left: 2%;
+}
+.cex h1{
+    font-size: 3.8rem;
+    padding: 10px;
+    color: white;
+}
+.cex p{
+    font-size: 1.9rem;
+    color: white;
+    padding: 10px;
+}
+.dex{
+    position: absolute;
+    top: 30%;
+    left: 2%;
+}
+.dex h1{
+    font-size: 3.8rem;
+    padding: 10px;
+    color: white; 
+}
+.dex p{
+    font-size: 1.9rem;
+    color: white;
+    padding: 10px;
+}
+.sad h1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.9rem;
+    padding-bottom: 10px;
+}
+.sat{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(147, 164, 179);
+}
+
+.him img{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+
+}
+form{
+    justify-content: center;
+    width: 50%;
+    background-color:rgba(0, 0, 255, 0.719) ;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 10px 13px;
+    margin-top: 16px;
+}
+label{
+    width: 100%;
+    padding-bottom: 7px;
+    font-size: 1.3rem;
+    
+
+}
+input{
+    width: 100%;
+    margin-bottom: 5px;
+    outline: none;
+    background-color: rgb(234, 239, 243);
+    padding: 10px 13px;
+    border-radius: 7px;
+}
+.sat h3{
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+ .net{
+    width: 40%;
+    margin-left: 200px;
+    padding: 10px 13px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(255, 103, 47);
+}
+textarea{
+    padding: 5px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    outline: none;
+    background-color: aliceblue;
+}
